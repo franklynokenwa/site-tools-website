@@ -2,7 +2,7 @@
 import { Carousel, Partners } from "@/components";
 import imageOne from "../../public/1.jpeg";
 import imageTwo from "../../public/2.jpeg";
-import imageThree from "../../public/3.jpeg";
+import imageThree from "../../public/staff.png";
 import imageFour from "../../public/033.jpg";
 import Link from "next/link";
 import thumb from "../../public/turnkeys.jpg";
