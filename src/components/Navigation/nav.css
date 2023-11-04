@@ -368,3 +368,15 @@ nav li li a:hover {
 
  
 }
+
+@media only screen and (max-width: 320px) {
+  .logo{
+    margin-left: -14rem;
+  }
+  .isoImage {
+    margin-left: 2rem;
+
+  }
+
+ 
+}
