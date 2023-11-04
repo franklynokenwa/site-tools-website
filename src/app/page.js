@@ -9,6 +9,8 @@ import thumb from "../../public/turnkeys.jpg";
 import location from "../../public/slider2.jpg";
 import benefit from "../../public/tower.jpeg";
 import Image from "next/image";
+import Iso from "../../public/iso.png";
+import styles from "./page.module.css";
 import HexComponent from "@/components/About/Component";
 import { useSpring, animated } from "react-spring";
 import {
@@ -122,10 +124,12 @@ export default function Home() {
         <h2>Benefits of Engaging ST&T</h2>
         <br />
         <br />
+        
         <div className="benefitFlex">
           <div className="benefitImage">
             <Image src={benefit} alt="ST & T" priority />
           </div>
+
 
           <div className="benefitContainer">
             <div className="benefitItemContainer">
@@ -133,9 +137,10 @@ export default function Home() {
                 <div className="circle"></div>
                 <div className="circleLine"></div>
               </div>
-              <div className="benefitTextContainer">
+              <div className="benefitTextContainer isoTextContainer" >
                 <h4>ISO 9001</h4>
                 <p>We adhere to ISO 9001 in all we do</p>
+                
               </div>
             </div>
             {/* start */}
@@ -204,6 +209,8 @@ export default function Home() {
                 <p>We innovate, able to deliver in volume and on time.</p>
               </div>
             </div>
+
+            
             {/* end */}
             {/* start */}
             <div className="benefitItemContainer">
@@ -219,10 +226,13 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
             {/* end */}
           </div>
         </div>
       </div>
+
+
       <div className="whistleBlower">
         <div className="whistle">
           <h1>

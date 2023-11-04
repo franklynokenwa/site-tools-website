@@ -2,11 +2,12 @@
 import * as React from "react";
 import "./nav.css";
 import logo from "../../../public/logo.png";
-import iso from "../../../public/iso.png";
 import Image from "next/image";
 import { PortfolioItems } from "../helper";
 import Link from "next/link";
 import { FaPhoneAlt } from "react-icons/fa";
+import Iso from "../../../public/iso.png";
+
 PortfolioItems;
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
@@ -153,11 +154,14 @@ const Navigation = () => {
                 <FaPhoneAlt /> Contact Us
               </Link>
             </li>
+
           </ul>
+                  
         </nav>
-        <div className="iso">
-          <Image src={iso} alt="ISO Logo" priority />
-        </div>
+        <div>
+          <Image className="isoImage" src={Iso} alt="Iso image" width={70} priority={true}/>
+        </div> 
+        
       </div>
     </div>
   );

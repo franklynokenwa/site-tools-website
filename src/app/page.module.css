@@ -269,6 +269,8 @@
   flex-direction: column;
   flex: 0.6;
 }
+
+
 /* Media Query */
 @media screen and (min-width: 1300px) and (max-width: 1700px) {
   .pageContent {
