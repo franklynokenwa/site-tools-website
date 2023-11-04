@@ -1,0 +1,442 @@
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 15rem;
+}
+
+.pageContent h2 {
+  margin-bottom: 1rem;
+}
+.pageContent p {
+  line-height: 2rem;
+}
+
+.subContent {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.imageFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  align-items: center;
+  justify-content: center;
+}
+.imageContainer img {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: contain;
+}
+.markerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.marker {
+  width: 100%;
+  display: flex;
+  flex-basis: 30%;
+  align-items: center;
+  justify-content: center;
+}
+.marker img {
+  width: 10%;
+  object-fit: contain;
+}
+
+.large {
+  flex-basis: 100%;
+}
+.contactFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contactBox {
+  display: flex;
+  flex: 0.4;
+  background: linear-gradient(0deg, #69120eeb, #ee3c34);
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  min-height: 5rem;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.InputContainer label {
+  font-size: 13px;
+  z-index: 1;
+  margin-bottom: 0.5rem;
+}
+
+.InputContainer input {
+  width: 100%;
+  height: 3.5rem;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  background: white;
+}
+
+.InputContainer textarea {
+  width: 100%;
+  height: 5rem;
+  outline: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+}
+
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactList {
+  display: flex;
+  flex-basis: 50%;
+  padding: 2rem 1rem;
+}
+.icon {
+  display: flex;
+  flex: 0.1;
+  align-items: center;
+  justify-content: center;
+  color: #ee3c34;
+}
+.icon a svg {
+  color: #ee3c34;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex: 0.9;
+  justify-content: center;
+}
+.imgFlex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.imgContainer {
+  width: 100%;
+  display: flex;
+  flex-basis: 48%;
+}
+.mainImg {
+  display: flex;
+  flex: 0.6;
+}
+
+.mainImg img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.listContainer {
+  width: 100%;
+  display: flex;
+  flex-basis: 48%;
+}
+
+.prtFlex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.prtTextContainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 55%;
+}
+.mainImageContainer {
+  display: flex;
+  width: 100%;
+  /* flex-direction: column; */
+  flex-basis: 40%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.mainImageContainer img {
+  width: 100%;
+  max-height: 30rem;
+  margin-bottom: 1rem;
+}
+.firstImage {
+  width: 100%;
+  display: flex;
+  flex-basis: 47%;
+  flex-wrap: wrap;
+}
+.bigImage {
+  width: 100%;
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+.otherImg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 47%;
+  /* flex-wrap: wrap; */
+  /* gap: 2rem; */
+}
+
+.otherImg img {
+  display: flex;
+  flex-basis: 46%;
+  object-fit: cover;
+}
+
+.subContent ul li {
+  line-height: 3rem;
+}
+
+.team {
+  width: 100%;
+  padding: 2rem 5rem;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 5px;
+}
+
+.teamCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 23%;
+  text-decoration: none;
+  color: black;
+}
+.teamImg {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+}
+.teamImg img {
+  width: 100%;
+  height: 20rem;
+  /* object-fit: cover; */
+}
+.teamText {
+  width: 100%;
+  padding: 1rem;
+}
+.teamText h2 {
+  font-size: 16px;
+}
+.teamFlex p {
+  font-size: 13px;
+}
+.teamFlex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.userFlex {
+  display: flex;
+}
+.userImageFlex {
+  display: flex;
+  flex: 0.3;
+}
+
+.userTextFlex {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+}
+/* Media Query */
+@media screen and (min-width: 1300px) and (max-width: 1700px) {
+  .pageContent {
+    padding: 2rem 10rem;
+  }
+  .team {
+    padding: 2rem 3rem;
+  }
+  .teamCard {
+    flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .pageContent {
+    padding: 2rem 10rem;
+  }
+  .team {
+    padding: 2rem 3rem;
+  }
+  .teamCard {
+    flex-basis: 30%;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1300px) {
+  .pageContent {
+    padding: 2rem 5rem;
+  }
+  .imageFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .marker {
+    flex-basis: 48%;
+  }
+
+  .team {
+    padding: 2rem 3rem;
+  }
+  .teamCard {
+    flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .pageContent {
+    padding: 2rem 5rem;
+  }
+  .imageFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .marker {
+    flex-basis: 48%;
+  }
+  .prtFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .otherImg {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .team {
+    padding: 2rem;
+  }
+  .teamCard {
+    flex-basis: 48%;
+  }
+  .userFlex {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pageContent {
+    padding: 2rem 5rem;
+  }
+  .imageFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .marker {
+    flex-basis: 48%;
+  }
+  .prtFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .otherImg {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .team {
+    padding: 2rem;
+  }
+  .teamCard {
+    flex-basis: 48%;
+  }
+  .userFlex {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pageContent {
+    padding: 2rem;
+  }
+  .imageFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .marker {
+    flex-basis: 100%;
+  }
+  .prtFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .otherImg {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .team {
+    padding: 2rem 1rem;
+  }
+  .teamFlex {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .userFlex {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .pageContent {
+    padding: 2rem;
+  }
+  .imageFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .prtFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .otherImg {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .marker {
+    flex-basis: 100%;
+  }
+  .contactFlex {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .team {
+    padding: 2rem 1rem;
+  }
+  .teamFlex {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .userFlex {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,272 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem 5rem;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 9999;
+  cursor: pointer;
+  align-items: center;
+}
+
+.navigation:hover {
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navigation:hover ul li a {
+  color: black;
+}
+.fixed {
+  position: fixed;
+  z-index: 9999 !important;
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.fixed ul li a {
+  color: black !important;
+}
+
+.logo {
+  display: flex;
+  flex: 0.1;
+  justify-content: flex-end;
+}
+.logo img {
+  width: 100%;
+  max-height: 4rem;
+  object-fit: contain;
+}
+
+.urls {
+  display: flex;
+  flex: 0.5;
+  padding: 0.5rem 4rem;
+}
+
+.urls ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.urls ul li {
+  width: 100%;
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 0.5rem 2rem;
+  /* position: relative; */
+}
+.urls ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.urls ul li:hover {
+  border-bottom: 2px solid #ee3c34;
+}
+.dropdown {
+  position: relative;
+  z-index: 9999 !important;
+}
+.mega {
+  position: relative;
+  z-index: 9999 !important;
+}
+.dropdown ul {
+  width: 150%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #fff;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  padding: 20px 0;
+  /* border-top: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+}
+.dropdown li {
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  height: 3rem !important;
+}
+.dropdown li a {
+  color: black !important;
+  font-size: 13px;
+}
+
+.dropdown ul {
+  display: none;
+}
+.dropdown:hover ul {
+  display: flex;
+}
+
+.mega ul {
+  width: 300%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #fff;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  padding: 20px 0;
+  /* border-top: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+}
+.mega li {
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  height: 3rem !important;
+}
+.mega li a {
+  color: black !important;
+  font-size: 13px;
+}
+
+.mega ul {
+  display: none;
+}
+.mega:hover ul {
+  display: flex;
+}
+.bar {
+  display: none;
+  flex: 0.1;
+  padding: 0.5rem;
+}
+.bar svg {
+  font-size: 2rem;
+}
+
+.mobile {
+  display: flex;
+  background: white;
+  width: 100%;
+  /* height: 100%; */
+  z-index: 9999;
+  /* position: fixed; */
+  padding: 3rem 1rem;
+  animation: 3s slide-left;
+  /* margin-left: 15%; */
+  flex-direction: column;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}
+
+.mobile ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.mobile ul li {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  line-height: 4rem;
+  padding: 0 1rem;
+  border-bottom: 1px solid gainsboro;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile ul li svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile ul li a {
+  text-decoration: none;
+  color: black !important;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+.mobile ul li ul {
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.mobile ul li ul li {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media Query */
+@media screen and (min-width: 1300px) and (max-width: 1700px) {
+  .urls {
+    flex: 0.8;
+    padding: 0.5rem 2rem;
+  }
+  .logo {
+    flex: 0.1;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .urls {
+    flex: 0.8;
+    padding: 0.5rem 2rem;
+  }
+  .logo {
+    flex: 0.1;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 550px) {
+  .urls {
+    display: none;
+  }
+  .bar {
+    display: flex;
+  }
+  .navigation {
+    background: white;
+    justify-content: space-between;
+  }
+  .logo {
+    flex: 0.3;
+  }
+}

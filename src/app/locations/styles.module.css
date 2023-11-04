@@ -1,0 +1,49 @@
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 15rem;
+}
+
+.pageContent h2 {
+  margin-bottom: 1rem;
+}
+.pageContent p {
+  line-height: 2rem;
+}
+
+.subContent {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.imageFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  align-items: center;
+  justify-content: center;
+}
+.markerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.marker {
+  width: 100%;
+  display: flex;
+  flex-basis: 30%;
+  align-items: center;
+  justify-content: center;
+}
+.marker img {
+  width: 10%;
+  object-fit: contain;
+}
+
+.large {
+  flex-basis: 100%;
+}

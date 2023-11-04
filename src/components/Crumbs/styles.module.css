@@ -1,0 +1,9 @@
+.crumbs {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.crumbs a {
+  text-decoration: none;
+  margin-right: 0.5rem;
+}

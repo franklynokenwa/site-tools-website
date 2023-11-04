@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: none;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn {
+  height: 3rem;
+  outline: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  align-items: center;
+  margin-right: 2rem;
+  background: none;
+  transition: 2s ease-in-out;
+}
+
+.btn:hover {
+  background: #ee3c34;
+  border: none;
+  transform: scale(1.05);
+}
+
+.blackBorder {
+  border: 1px solid black;
+  color: black;
+}
+.lightBorder {
+  border: 1px solid white;
+  color: white;
+}
+.btnRed {
+  color: white;
+  background: linear-gradient(0deg, #69120eeb, #ee3c34);
+}
+.aboutHomeContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 15rem;
+}
+
+.aboutImageFlex {
+  display: flex;
+  flex: 0.3;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1rem;
+  /* background: #000; */
+}
+.aboutImageFlex img {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: contain;
+}
+.aboutTextContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  padding: 5rem 1rem;
+}
+.aboutTextContainer h4 {
+  color: #ee3c34;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.aboutTextContainer h2 {
+  font-size: 2rem;
+}
+/* .aboutTextContainer p {
+  line-height: 2rem;
+} */
+.locationContainer {
+  width: 100%;
+  display: flex;
+  height: 35rem;
+  position: relative;
+  overflow: hidden;
+}
+.locationBackdrop {
+  width: 100%;
+  height: 35rem;
+}
+.locationBackdrop img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.locationTextContainer {
+  width: 100%;
+  height: 35rem;
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 15rem;
+}
+
+.locationTextContainer h2 {
+  font-size: 2rem;
+}
+
+.homeMissonContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homeMisson {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeMissionFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeTextContainer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  flex: 0.8;
+}
+
+.homeTextContainer ul li {
+  list-style: none;
+}
+
+.aboutContainerFlex {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+}
+
+.benefits {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 15rem;
+}
+.benefits h2 {
+  font-size: 2rem;
+}
+
+.benefitFlex {
+  display: flex;
+  align-items: center;
+}
+
+.benefitImage {
+  display: flex;
+  flex: 0.3;
+  /* padding: 2rem; */
+}
+.benefitImage img {
+  width: 100%;
+  max-height: 45rem;
+  object-fit: cover;
+}
+
+.benefitContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+  padding: 0 3rem;
+}
+
+.circleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ee3c34;
+}
+.circleLine {
+  width: 10px;
+  height: 80px;
+  background: #ee3c34;
+  margin-top: -10px;
+}
+
+.benefitItemContainer {
+  display: flex;
+}
+
+.benefitTextContainer {
+  padding: 0 1rem;
+}
+
+.benefitTextContainer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.circleSections .circleLine {
+  height: 50px !important;
+}
+
+.whistleBlower {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+.whistle {
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.whistle:hover {
+  background: #ee3c34;
+  color: white;
+}
+.whistle h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.whistle h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.whistle p {
+  text-align: center;
+}
+.whistle h6 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* Media Query */
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+  .aboutHomeContainer {
+    padding: 2rem 10rem;
+  }
+
+  .locationTextContainer {
+    padding: 2rem 10rem;
+  }
+  .circleLine {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .aboutHomeContainer {
+    padding: 2rem 10rem;
+  }
+  .locationTextContainer {
+    padding: 2rem 10rem;
+  }
+  .circleLine {
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1300px) {
+  .aboutHomeContainer {
+    padding: 2rem 5rem;
+  }
+
+  .aboutTextContainer h4 {
+    font-size: 1rem;
+  }
+  .aboutTextContainer h2 {
+    font-size: 1.5rem;
+  }
+  .locationTextContainer {
+    padding: 2rem 5rem;
+  }
+  .benefits {
+    display: flex;
+    padding: 2rem 5rem;
+  }
+  .benefitFlex {
+    gap: 1rem;
+  }
+
+  .circleLine {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .aboutHomeContainer {
+    padding: 2rem 5rem;
+  }
+
+  .aboutTextContainer h4 {
+    font-size: 1rem;
+  }
+  .aboutTextContainer h2 {
+    font-size: 1.5rem;
+  }
+  .locationTextContainer {
+    padding: 2rem 5rem;
+  }
+  .locationTextContainer h2 {
+    font-size: 1.8rem;
+  }
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+  }
+  .benefitFlex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .circleLine {
+    height: 120px;
+  }
+  .whistleBlower {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutHomeContainer {
+    padding: 2rem 5rem;
+  }
+
+  .aboutTextContainer h4 {
+    font-size: 1rem;
+  }
+  .aboutTextContainer h2 {
+    font-size: 1.5rem;
+  }
+  .locationTextContainer {
+    padding: 2rem 5rem;
+  }
+  .locationTextContainer h2 {
+    font-size: 1.8rem;
+  }
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+  }
+  .benefitFlex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .circleLine {
+    height: 120px;
+  }
+  .whistleBlower {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .aboutHomeContainer {
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .locationTextContainer {
+    padding: 2rem;
+  }
+  .locationTextContainer h2 {
+    font-size: 1.5rem;
+  }
+  .homeMissionFlex {
+    flex-direction: column;
+  }
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .benefitFlex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .circleLine {
+    height: 150px;
+  }
+  .whistleBlower {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutHomeContainer {
+    padding: 2rem 1rem;
+    flex-direction: column;
+  }
+  .locationTextContainer {
+    padding: 2rem 1rem;
+  }
+  .locationTextContainer h2 {
+    font-size: 1.5rem;
+  }
+  .homeMissionFlex {
+    flex-direction: column;
+  }
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  .benefitFlex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .circleLine {
+    height: 200px;
+  }
+  .whistleBlower {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}

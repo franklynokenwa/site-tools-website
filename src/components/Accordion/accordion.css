@@ -1,0 +1,50 @@
+.accordion {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.accordion .accordion-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  display: flex;
+}
+.accordion .accordion-header .accordion-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.accordion .accordion-header .accordion-title {
+  flex: 1;
+  font-weight: bold;
+}
+.accordion .accordion-content {
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+}
+.accordion.active .accordion-header {
+  background-color: #ee3c34;
+  color: white;
+}
+.accordion.active .accordion-content {
+  display: block;
+}
+
+.accordion-content ul li {
+  list-style: none;
+  border-bottom: 1px solid gainsboro;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+}
+
+.accordion-content ul li:hover {
+  color: white;
+  background-color: #ee3c34;
+}
+
+.accordion-content ul li a:hover {
+  color: white;
+  /* background-color: #ee3c34; */
+}
