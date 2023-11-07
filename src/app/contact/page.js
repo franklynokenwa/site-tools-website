@@ -88,7 +88,7 @@ const Contact = () => {
               <div className={styles.text}>
                 <p>
                   <strong>Nigeria:</strong> 51b Alhaji Adekunle Bisi Street,
-                  Hill View Estate, Ogudu GRA, Lagos P.O BOX: 3757-IKJ
+                  Hill View Estate, Ogudu GRA, Lagos.
                 </p>
                 <p>
                   <strong>Ethiopia:</strong> Gabon Street, Aster Plaza, 3rd

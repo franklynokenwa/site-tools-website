@@ -87,7 +87,7 @@ const Footer = () => {
                 </strong>
                 <br />
                 51b Alhaji Adekunle Bisi Street, Hill View Estate, Ogudu GRA,
-                Lagos P.O BOX: 3757-IKJ <br />
+                Lagos.<br />
                 <strong>Ethiopia:</strong>
                 <br /> Gabon Street, Aster Plaza, 3rd Floor, Addis Ababa.
               </p>
