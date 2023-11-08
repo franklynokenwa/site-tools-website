@@ -11,6 +11,7 @@ import odejobi from "../../../../../public/odejobi.png";
 import dele from "../../../../../public/dele.png";
 import mered from "../../../../../public/mered.png";
 import rash from "../../../../../public/rash.png";
+import seun from "../../../../../public/seun.png";
 import hr from "../../../../../public/hr.png";
 import Image from "next/image";
 const About = ({ params }) => {
@@ -50,7 +51,7 @@ const About = ({ params }) => {
     },
     {
       id: 5,
-      image: avatar,
+      image: seun,
       name: "ENGR. AYANDA OLUWASEUN OMONIYI",
       role: "Senior Manager (IHS & Huawei)",
       content:
@@ -103,14 +104,6 @@ const About = ({ params }) => {
     //   content:
     //     "Patience is a professional with a dynamic passion for Human Resource Management. She is experienced in talent management, recruitment and selection, performance management, compensation and benefits, learning and development, human resources information system, HR data and analytics and HR compliance. Prior to joining ST&T, she has worked with a consulting firm and Multinational FMCG. She is an associate member of Chartered Institute of Personnel Management Nigeria, Association of Elite Human Resource Professionals, a certified HR Business Partner  and has a graduate certificate in Business Administration from Sikkim Manipal University Ghana. She has attended several courses such as Talent Management, Strategic HR in Modern Time, Gaining Mastery of HR and Data Analytics, Driving Successful Business Execution through Human Capital  etc. She recently got certified as Human Resource Business Partner from World Academy UK.",
     // },
-    {
-      id: 11,
-      image: avatar,
-      name: "PINHEIRO LEGAL PRACTITIONERS",
-      role: "Legal Services, Nigeria",
-      content:
-        "Pinheiro LP was established in 1996 to provide legal services and foster relationships built on trust and excellence. They serve as Legal Practitioners to our organization. They are perceived as solution providers holding the fervent belief that clients should feel comfortable and assured in the knowledge that they are dedicated to meeting their needs.",
-    },
   ];
 
   const pageContent = slides?.find((x) => x.id === parseInt(params?.name));
