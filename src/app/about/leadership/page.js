@@ -13,6 +13,8 @@ import odejobi from "../../../../public/odejobi.png";
 import dele from "../../../../public/dele.png";
 import mered from "../../../../public/mered.png";
 import rash from "../../../../public/rash.png";
+import seun from "../../../../public/seun.png";
+
 import hr from "../../../../public/hr.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -50,6 +52,15 @@ const About = () => {
       role: "General Manager (ATC), Nigeria",
       content:
         "Olajide Adebayo is a graduate of Electrical/ Telecommunications Engineering from Federal Polytechnic Offa, Kwara State and a chartered member of Nigeria Institute of Management. He has a wealth of experience and an in-depth knowledge in site management inclusive of Technical and Administrative aspects. He was a project manager at NTS Nigeria until his appointment with ST&T as a Project Manager. In addition, he has attended trainings such as Project Management Professional (Phillips Consulting Ltd.) and certification in Strategic Project Management.",
+    },
+
+    {
+      id:5,
+      image: seun,
+      name: "ENGR. AYANDA OLUWASEUN OMONIYI",
+      role: "Senior Manager (IHS & Huawei)",
+      content:
+        "Oluwaseun is a seasoned telecoms professional, who has a B.Sc. degree in Electrical Electronics Engineering from the Olabisi Onabanjo University, Nigeria. He is COREN certified and also a member of the Nigerian Society of Engineers since 2017. His professional experience covers both the active and passive telecommunications infrastructure maintenance and management. This includes power supply and management systems, optical fiber operation and maintenance and NOC operations. He has quite an impeccable record of meeting up with deliverables as per these project requirements and more. He has a passion for excellence and takes both creative and responsible approach to getting problems solved. He is an all-round dependable hand and a mentor to many.",
     },
     {
       id: 6,
