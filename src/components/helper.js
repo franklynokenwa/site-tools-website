@@ -213,7 +213,7 @@ export const PortfolioItems = [
     name: "DIESEL TANK CLEANING AND DIESEL CLEANSING",
     text: "In view of providing efficient and effective service for the durability of our clients’ equipment and operations on diesel fuel; e.g. Diesel Generators, Diesel Vehicles etc. and to increase its life span, we offer diesel tank cleaning and management.<br /> This operation is carried out in a highly professional manner by engaging experienced team and observing every necessary operational health and safety measures to avoid hazards associated to the scope of work.<br /> Cleaning of diesel bulk tank ensures effective running of the diesel operated machines by removal of dirt/ contaminants in the diesel that can cause breakdown of the equipment. <br /> This activity offers significant cost savings through longer equipment life, greater efficiency and reduced time and money spent on maintenance. It also serves to extend our clients capital investments, by lowering the total life cycle cost of the equipment associated with diesel fuel operations.",
     image: [cleaningOne,cleaningTwo],
-    banner: cleaning,
+    banner: cleaningOne,
   },
   {
     url: "other-services",
