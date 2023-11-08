@@ -52,14 +52,6 @@ const About = () => {
         "Olajide Adebayo is a graduate of Electrical/ Telecommunications Engineering from Federal Polytechnic Offa, Kwara State and a chartered member of Nigeria Institute of Management. He has a wealth of experience and an in-depth knowledge in site management inclusive of Technical and Administrative aspects. He was a project manager at NTS Nigeria until his appointment with ST&T as a Project Manager. In addition, he has attended trainings such as Project Management Professional (Phillips Consulting Ltd.) and certification in Strategic Project Management.",
     },
     {
-      id: 5,
-      image: avatar,
-      name: "ENGR. AYANDA OLUWASEUN OMONIYI",
-      role: "Senior Manager (IHS & Huawei)",
-      content:
-        "Oluwaseun is a seasoned telecoms professional, who has a B.Sc. degree in Electrical Electronics Engineering from the Olabisi Onabanjo University, Nigeria. He is COREN certified and also a member of the Nigerian Society of Engineers since 2017. His professional experience covers both the active and passive telecommunications infrastructure maintenance and management. This includes power supply and management systems, optical fiber operation and maintenance and NOC operations. He has quite an impeccable record of meeting up with deliverables as per these project requirements and more. He has a passion for excellence and takes both creative and responsible approach to getting problems solved. He is an all-round dependable hand and a mentor to many.",
-    },
-    {
       id: 6,
       image: wale,
       name: "ENGR. ADEWALE ADEJUMOBI",
@@ -106,14 +98,6 @@ const About = () => {
     //   content:
     //     "Patience is a professional with a dynamic passion for Human Resource Management. She is experienced in talent management, recruitment and selection, performance management, compensation and benefits, learning and development, human resources information system, HR data and analytics and HR compliance. Prior to joining ST&T, she has worked with a consulting firm and Multinational FMCG. She is an associate member of Chartered Institute of Personnel Management Nigeria, Association of Elite Human Resource Professionals, a certified HR Business Partner  and has a graduate certificate in Business Administration from Sikkim Manipal University Ghana. She has attended several courses such as Talent Management, Strategic HR in Modern Time, Gaining Mastery of HR and Data Analytics, Driving Successful Business Execution through Human Capital  etc. She recently got certified as Human Resource Business Partner from World Academy UK.",
     // },
-    {
-      id: 11,
-      image: avatar,
-      name: "PINHEIRO LEGAL PRACTITIONERS",
-      role: "Legal Services, Nigeria",
-      content:
-        "Pinheiro LP was established in 1996 to provide legal services and foster relationships built on trust and excellence. They serve as Legal Practitioners to our organization. They are perceived as solution providers holding the fervent belief that clients should feel comfortable and assured in the knowledge that they are dedicated to meeting their needs.",
-    },
   ];
 
   return (
